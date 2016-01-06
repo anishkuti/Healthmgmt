@@ -13,5 +13,8 @@
     "node-restful": "~0.2.4",
     "mongoose": "~4.3.4",
     "body-parser": "~1.14.2"
+  },
+  "devDependencies": {
+    "grunt-nodemon": "~0.4.1"
   }
 }

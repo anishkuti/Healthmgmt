@@ -4,18 +4,24 @@ var mongoose = restful.mongoose;
 
 // Schema
 var customerSchema = new mongoose.Schema({
-Customer_Id: String,
-Contactnumber: String,
+CustomerId: String,
+ContactNumber: String,
 Name: String,
 DOB: String,
 Address: String,
-BPSystolic: Number,
-BPDiastolic: Number,
-Threshold: Number,
-Preferred_Hospital_Id: String,
-Preferred_Pharmacy_ID: String,
-Preferred_Cab_Id: String,
-Preferred_Doctor_Id: String
+BPSystolic: String,
+BPDiastolic: String,
+Weight: String,
+BPThreshold: String,
+Preferred_Hospital: String,
+Preferred_Pharmacy: String,
+Preferred_Cab_Service: String,
+Preferred_pickup_location: String,
+Preferred_Doctor: String,
+Friend_1: String,
+Friend_2: String,
+Last_Hospital_Visit: String
+
 });
 
 // Return model
